@@ -87,3 +87,4 @@ En conclusió, **Bitwarden és l’opció òptima per a una empresa com EverPia*
 📅 **Data:** 20 d’octubre de 2025  
 👨‍💻 **Autor:** Equip de Ciberseguretat - Consultora EverPia  
 
+[Tasca01](Tasca01)
