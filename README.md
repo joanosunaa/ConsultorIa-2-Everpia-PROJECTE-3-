@@ -1,114 +1,89 @@
-🧯 EverPia 2: Sobreviure en una empresa IT
-🏁 Introducció
+# 🧠 Informe Tècnic: Avaluació de Gestors de Contrasenyes per al Personal Tècnic
 
-Després de mesos de feina intensa, nits de pizza i commits a última hora, la consultora EverPia ha viscut el seu primer gran èxit.
-Els clients estan contents, les presentacions van triomfar i, fins i tot, els tècnics van aconseguir fer funcionar el servidor…
-sense reiniciar-lo cada cinc minuts.
-Un miracle digne d’estudi.
+## 🔐 Introducció i Justificació
 
-🧠 “Quan tot funciona, és que no ho has mirat prou bé.”
+Recentment, **EverPia** ha patit una greu *fuita d’informació (data breach)* com a conseqüència de l’ús d’una **contrasenya feble o reutilitzada**. Aquest incident ha posat en risc informació confidencial i ha exposat la companyia a **xantatges i pèrdues econòmiques**.
 
-El primer projecte va ser un èxit.
-Aquest segon… és una prova de supervivència.
+### Riscos de contrasenyes febles o reutilitzades
+L’ús de contrasenyes poc segures o repetides entre serveis suposa un risc crític per diversos motius:
 
-Benvinguts a EverPia 2: “Sobreviure en una empresa IT”, una simulació (massa realista) del que passa quan una empresa tecnològica comença a créixer i a rebre més clients dels que pot gestionar.
+- **Atacs de diccionari**: Els ciberdelinqüents proven milions de combinacions comunes (com “123456” o “password”) per accedir a comptes.
+- **Credential stuffing**: Si una contrasenya és reutilitzada en diversos serveis, una filtració en un d’ells pot permetre l’accés a tots els altres.
+- **Phishing i enginyeria social**: Les contrasenyes senzilles són fàcils de recordar, però també de descobrir.
 
-Quan el volum augmenta, els problemes també.
-I quan els servidors cremen... vosaltres sou els bombers digitals.
+Aquest tipus d’atacs poden comprometre **la seguretat global de l’empresa**, provocant pèrdua de dades, dany reputacional i sancions legals.
 
-🖥️ Context
+### Funció d’un gestor de contrasenyes
+Un **gestor de contrasenyes** permet generar, emmagatzemar i gestionar de manera segura contrasenyes úniques i complexes per a cada compte.  
+Les seves principals funcions són:
 
-EverPia ja no és una petita consultora. Ara gestiona clients, contractes i serveis crítics 24/7.
-L’equip ha crescut, els projectes s’han multiplicat i el pressupost… bé, el pressupost segueix sent el mateix.
+- 🔸 **Xifratge end-to-end**: Les dades s’emmagatzemen de manera xifrada, només accessibles amb la contrasenya mestra.  
+- 🔸 **Generació automàtica** de contrasenyes robustes.  
+- 🔸 **Sincronització segura** entre dispositius.  
+- 🔸 **Eliminació de la reutilització** de contrasenyes.
 
-Els antics alumnes (vosaltres) heu ascendit: sou els tècnics júnior del departament IT, i us acaben d’assignar el vostre primer gran repte:
-👉 mantenir viva la infraestructura d’EverPia.
+---
 
-💼 El vostre dia a dia
+## ⚙️ Comparativa Tècnica
 
-🔥 Apagar focs
+| Característica | **Bitwarden (Online / Núvol)** | **KeePassXC (Offline / Escriptori)** |
+|----------------|--------------------------------|--------------------------------------|
+| **Model de seguretat** | Xifratge *end-to-end* (AES-256) | Xifratge local d’arxiu KDBX (AES-256) |
+| **Emmagatzematge** | Núvol (servidors propis o autogestionats) | Local (fitxer KDBX al dispositiu) |
+| **Accés multi-dispositiu** | Sí (web, app, extensió, mòbil) | Sí, però mitjançant còpia manual de l’arxiu |
+| **Model Freemium / Cost** | Gratuït amb opcions premium (~10€/any) | Totalment gratuït i open source |
+| **Codi obert** | Sí (Open Source, auditat) | Sí (Open Source, comunitari) |
+| **Sincronització automàtica** | Sí, via núvol | No nativa (requereix serveis externs com Nextcloud o Dropbox) |
+| **Facilitat d’ús** | Interfície moderna i intuïtiva | Més tècnica, enfocada a usuaris avançats |
+| **Autenticació en dos passos (2FA)** | Sí | Limitada (depèn de l’usuari) |
+| **Portabilitat** | Alta (web i app mòbil) | Mitjana (requereix transferir el fitxer manualment) |
 
-🧰 Resoldre incidències
+---
 
-📨 Respondre tickets
+## ⚖️ Avantatges i Inconvenients
 
-🖧 Mantenir sistemes
+### 🔹 Bitwarden (Online / Núvol)
+**Avantatges:**
+- Sincronització automàtica entre tots els dispositius.  
+- Interfície amigable i fàcil d’aprendre.  
+- Compatible amb 2FA i navegadors.  
+- Disponible en versió *self-hosted* per a més control intern.
 
-🗂️ Documentar-ho tot (abans que algú formategi per error)
+**Inconvenients:**
+- Dependència d’internet o del servidor.  
+- Possible risc si el servidor és compromès (encara que les dades estan xifrades).  
+- Cost per a funcions avançades.
 
-😅 Aprendre a no perdre els nervis
+---
 
-És la vida real dins una empresa IT:
+### 🔹 KeePassXC (Offline / Escriptori)
+**Avantatges:**
+- No depèn del núvol: màxim control local de les dades.  
+- Totalment gratuït i open source.  
+- Arxiu KDBX fàcil de transportar (USB, disc extern, etc.).  
+- Ideal per a entorns sense connexió o amb requisits de seguretat estrictes.
 
-El caos... ben documentat.
+**Inconvenients:**
+- Sense sincronització automàtica nativa.  
+- Interfície menys intuïtiva per a usuaris no tècnics.  
+- Risc de pèrdua de l’arxiu si no es fan còpies de seguretat.
 
-🎯 Missió del Projecte
+---
 
-Aquest projecte és la segona temporada d’una sèrie que acaba d’arrencar.
+## 💡 Recomanació Final
 
-Si EverPia 1 era sobre construir,
-EverPia 2 és sobre sobreviure.
+Després d’analitzar les dues opcions, **es recomana implementar _Bitwarden_ com a gestor de contrasenyes per al personal tècnic d’EverPia**.
 
-🚀 La vostra missió és demostrar que sou capaços de:
+### Justificació:
+- ✅ Facilita l’adopció gràcies a la seva **interfície intuïtiva** i la sincronització automàtica entre dispositius.  
+- ✅ Ofereix **xifratge end-to-end** i autenticació en dos passos, garantint un alt nivell de seguretat.  
+- ✅ Permet **autogestionar el servidor internament**, combinant els avantatges del núvol amb el control total sobre les dades.  
+- ✅ És **compatible amb equips col·laboratius**, permetent compartir credencials de forma segura.
 
-Resoldre problemes reals d’una infraestructura IT.
+En conclusió, **Bitwarden és l’opció òptima per a una empresa com EverPia**, que necessita un equilibri entre **seguretat, usabilitat i gestió centralitzada** de credencials.
 
-Gestionar serveis essencials (DNS, LDAP, LVM…).
+---
 
-Treballar amb rigurositat tècnica i metodologia àgil.
+📅 **Data:** 20 d’octubre de 2025  
+👨‍💻 **Autor:** Equip de Ciberseguretat - Consultora EverPia  
 
-Mantenir la calma mentre tot sembla fallar.
-
-💡 El coneixement és important, sí... però la serenitat és un servei premium.
-
-💡 Objectius Formatius
-
-🎓 L’objectiu d’EverPia 2 és preparar-vos per al món real de les empreses IT.
-Treballareu com a professionals tècnics, resolent problemes, documentant i coordinant equips.
-
-🧭 Objectius principals:
-
-Consolidar coneixements avançats en sistemes, xarxes i serveis corporatius.
-
-Aplicar tècniques reals de manteniment i optimització de servidors.
-
-Aprendre a resoldre problemes complexos sota pressió.
-
-Practicar la documentació tècnica professional amb GitHub i Markdown.
-
-Desenvolupar competències clau: treball en equip, responsabilitat, organització i autonomia.
-
-🧩 A EverPia 2 ja no hi ha professors: hi ha caps de projecte, companys de suport tècnic i clients impacients.
-
-⚙️ Filosofia de Treball
-
-Cada error és una oportunitat per aprendre.
-Cada pantalla blava és un examen de serenitat.
-Cada “no sé què ha passat, però ara funciona” és un triomf silenciós.
-
-Aquest projecte és una immersió total en el món real de les empreses IT.
-
-No n’hi ha prou amb saber instal·lar — cal entendre, prevenir i comunicar.
-
-A EverPia, el lema és clar:
-
-💬 “Si sobrevius a això... pots sobreviure a qualsevol empresa.”
-
-✨ Epíleg: L’Oportunitat
-
-Sí, és dur.
-Sí, tindreu moments en què voldreu llençar el teclat per la finestra.
-Però també descobrireu què significa treballar com a autèntics professionals del món IT:
-analitzar, decidir, coordinar i mantenir sistemes crítics.
-
-EverPia segueix sent una de les millors empreses on començar:
-
-💬 Cada projecte és una història.
-
-⚙️ Cada error és una lliçó.
-
-🧑‍💻 Cada tècnic és un heroi anònim del backend.
-
-🔥 Benvinguts a EverPia 2: “Sobreviure en una empresa IT”
-El foc ja està encès.
-Ara és el vostre torn d’agafar l’extintor… i el teclat.
