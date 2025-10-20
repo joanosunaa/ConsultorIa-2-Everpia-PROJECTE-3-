@@ -1,0 +1,1 @@
+# ConsultorIa-2-Everpia-PROJECTE-3-
