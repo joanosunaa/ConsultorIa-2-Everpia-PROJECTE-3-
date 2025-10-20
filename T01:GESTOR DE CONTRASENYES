@@ -1,1 +1,51 @@
+# ⚠️ Alerta de Seguretat: Fuita d’Informació a EverPia
+
+## 🏢 Context de la Situació
+
+**EverPia** ha estat víctima d’un atac de **ciberdelinqüents**.  
+La consultora on esteu realitzant les pràctiques ha patit una **fuita d’informació (data breach)** i dades confidencials d’un projecte en desenvolupament han estat robades. Els atacants amenacen amb **publicar la informació** si no es paga un **rescat econòmic**.
+
+Aquesta situació ha generat **una crisi interna**, i s’ha creat un **comitè d’emergència** per gestionar l’incident.  
+La investigació interna ha descobert que **un dels comptes tècnics va ser compromès** a causa de l’ús d’una **contrasenya feble o reutilitzada**.
+
+Per prevenir futurs incidents, **la Direcció Tècnica** ha emès una nova directriu:  
+> Tot el personal tècnic haurà d’utilitzar un **gestor de contrasenyes validat** per garantir credencials **únices, segures i difícils de vulnerar**.
+
+---
+
+# 🧠 Fase 1: Anàlisi i Justificació
+
+## 🔐 Per què les contrasenyes febles o reutilitzades són un risc crític?
+
+L’ús de contrasenyes simples o repetides és una de les causes més comunes de compromís de comptes corporatius. Aquestes contrasenyes faciliten diferents tipus d’atacs:
+
+- **Atac de diccionari:** Els atacants proven combinacions habituals com “123456”, “admin” o “password”.
+- **Credential stuffing:** Si una contrasenya és reutilitzada en diversos serveis, una filtració en un pot donar accés a tots els altres.
+- **Enginyeria social i phishing:** Els atacants poden enganyar usuaris per obtenir credencials.
+
+➡️ **Conseqüència:** Un únic compte compromès pot permetre l’accés a informació sensible, provocar fuites massives i danyar la reputació de l’empresa.
+
+---
+
+## 🧩 Funció d’un gestor de contrasenyes
+
+Un **gestor de contrasenyes** és una eina que permet:
+
+- Emmagatzemar credencials de manera **xifrada** i segura.  
+- Generar **contrasenyes úniques i robustes** per a cada compte.  
+- Evitar la reutilització de contrasenyes.  
+- Facilitar l’accés des de diversos dispositius amb sincronització automàtica (en el cas d’opcions al núvol).  
+
+D’aquesta manera, es **redueix dràsticament el risc** d’accés no autoritzat als sistemes corporatius.
+
+---
+
+# ⚙️ Comparativa Tècnica
+
+A continuació es presenta una anàlisi comparativa entre dues eines representatives:
+
+| Característica | **Bitwarden (Online / Núvol)** | **KeePassXC (Offline / Escriptori)** |
+|----------------|--------------------------------|--------------------------------------|
+| **Model de seguretat** | Xifratge *end-to-end* (AES-256) | Xifratge local d’arxiu KDBX (AES-256) |
+| **Emmagatzematge** |
 
