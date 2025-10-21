@@ -1,6 +1,6 @@
-# 🧠 Informe Tècnic: Avaluació de Gestors de Contrasenyes per al Personal Tècnic
+# Informe Tècnic: Avaluació de Gestors de Contrasenyes per al Personal Tècnic
 
-## 🔐 Introducció i Justificació
+##  Introducció i Justificació
 
 Recentment, EverPia ha patit una **fuita de dades** causada per l’ús d’una **contrasenya feble i reutilitzada**.  
 Aquesta situació ha exposat informació crítica i ha posat en risc la continuïtat del negoci.
@@ -21,7 +21,7 @@ Un gestor de contrasenyes permet:
 - Evitar la reutilització i l’oblit de contrasenyes.
 
 
-## ⚙️ Comparativa Tècnica
+##  Comparativa Tècnica
 
 | **Característica** | **Bitwarden (Online / Núvol)** | **KeePassXC (Offline / Escriptori)** |
 |---------------------|--------------------------------|-------------------------------------|
@@ -36,7 +36,7 @@ Un gestor de contrasenyes permet:
 | **Portabilitat** | Alta  | Mitjana  |
 
 
-## ⚖️ Avantatges i Inconvenients
+##  Avantatges i Inconvenients
 
 ### 🔹 Bitwarden (Online / Núvol)
 **Avantatges**
@@ -63,16 +63,16 @@ Un gestor de contrasenyes permet:
 - Risc de pèrdua de dades si no es fan còpies de seguretat.
 
 
-## 💡 Recomanació Final
+##  Recomanació Final
 
 Després de l’anàlisi, es recomana implementar **Bitwarden** com a gestor de contrasenyes per al personal tècnic d’EverPia.
 
 ### Justificació:
-✅ Interfície intuïtiva i fàcil d’adoptar.  
-✅ Sincronització automàtica entre dispositius.  
-✅ Alt nivell de seguretat amb xifratge end-to-end i 2FA.  
-✅ Possibilitat d’instal·lar un servidor intern (*self-hosted*) per mantenir el control de les dades.  
-✅ Facilita la col·laboració i el treball en equip amb credencials compartides de manera segura.
+ Interfície intuïtiva i fàcil d’adoptar.  
+ Sincronització automàtica entre dispositius.  
+ Alt nivell de seguretat amb xifratge end-to-end i 2FA.  
+ Possibilitat d’instal·lar un servidor intern (*self-hosted*) per mantenir el control de les dades.  
+ Facilita la col·laboració i el treball en equip amb credencials compartides de manera segura.
 
 
 📅 **Data:** 20 d’octubre de 2025  
