@@ -75,7 +75,8 @@ Després de l’anàlisi, es recomana implementar **Bitwarden** com a gestor de 
  Facilita la col·laboració i el treball en equip amb credencials compartides de manera segura.
 
 
-📅 **Data:** 20 d’octubre de 2025  
-👨‍💻 **Autor:** Equip de Ciberseguretat – Consultora EverPia
+**Data:** 20 d’octubre de 2025  
+
+
 
 
