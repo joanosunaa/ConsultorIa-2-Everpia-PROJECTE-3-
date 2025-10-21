@@ -71,9 +71,7 @@ Utilitzant l’eina seleccionada a la Fase 1 (**Bitwarden**, **KeePassX**, o sim
    - Recomanació per emmagatzemar la còpia de forma segura (clau USB xifrada o núvol xifrat).
 
 
-## 📂 Estructura del lliurament
-
-Dins del repositori del **projecte-3**, heu de crear una carpeta anomenada **`tasca01`**, que contingui:
+[Tasca01](Tasca01/T01:GESTORDECONTRASENYES)
 
 
 
