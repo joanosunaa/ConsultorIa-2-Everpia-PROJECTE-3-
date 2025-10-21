@@ -71,8 +71,7 @@ Utilitzant l’eina seleccionada a la Fase 1 (**Bitwarden**, **KeePassX**, o sim
    - Recomanació per emmagatzemar la còpia de forma segura (clau USB xifrada o núvol xifrat).
 
 
-[Tasca01](Tasca01/T01:GESTORDECONTRASENYES)
-
+[Tasca01](Tasca01/README.md)
 
 
 
