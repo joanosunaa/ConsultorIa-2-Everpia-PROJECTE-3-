@@ -25,15 +25,15 @@ Un gestor de contrasenyes permet:
 
 | **Característica** | **Bitwarden (Online / Núvol)** | **KeePassXC (Offline / Escriptori)** |
 |---------------------|--------------------------------|-------------------------------------|
-| **Model de seguretat** | Xifratge d'extrem a extrem (AES-256) | Xifratge local d’arxiu KDBX (AES-256) |
-| **Emmagatzematge** | Núvol (servidors propis o autogestionats) | Local (fitxer KDBX al dispositiu) |
-| **Accés multidispositiu** | Sí (web, app, extensió, mòbil) | Sí, però amb còpia manual de l’arxiu |
+| **Model de seguretat** | Xifratge d'extrem a extrem  | Xifratge local d’arxiu KDBX  |
+| **Emmagatzematge** | Núvol servidors propis  | Local  |
+| **Accés multidispositiu** | Sí  | Sí |
 | **Cost / Model freemium** | Gratuït + premium (~10 €/any) | Gratuït i codi obert |
 | **Codi obert** | Sí, auditat | Sí, comunitari |
-| **Sincronització automàtica** | Sí, via núvol | No nativa (requereix Nextcloud/Dropbox) |
+| **Sincronització automàtica** | Sí, via núvol | No nativa |
 | **Facilitat d’ús** | Interfície moderna i intuïtiva | Més tècnica, per usuaris avançats |
-| **2FA (autenticació en dos passos)** | Sí | Limitada |
-| **Portabilitat** | Alta (navegador i app mòbil) | Mitjana (transferència manual) |
+| **Autenticació en dos passos** | Sí | Limitada |
+| **Portabilitat** | Alta  | Mitjana  |
 
 
 ## ⚖️ Avantatges i Inconvenients
