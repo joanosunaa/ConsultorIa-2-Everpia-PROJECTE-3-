@@ -56,12 +56,12 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
 
 ##  Recomanacions
 
-✅ No compartir mai la contrasenya mestra.  
-✅ Activar sempre l’autenticació en dos passos (2FA).  
-✅ Fer còpies de seguretat mensuals.  
-✅ Bloquejar Bitwarden automàticament quan no s’utilitzi.  
+No compartir mai la contrasenya mestra.  
+Activar sempre l’autenticació en dos passos (2FA).  
+Fer còpies de seguretat mensuals.  
+Bloquejar Bitwarden automàticament quan no s’utilitzi.  
 
 
-📅 **Data:** 20 d’octubre de 2025  
-👨‍💻 **Autor:** Alumne SMX – Pràctiques a EverPia
+**Data:** 20 d’octubre de 2025  
+
 
