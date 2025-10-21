@@ -1,77 +1,72 @@
-# 🧠 Tasca 01: Gestor de Contrasenyes
+# DESCRIPCIÓ DEL PROJECTE (Objectius, repte i producte final)
 
-## 🔔 Breu descripció
+## EverPia 2: “Sobreviure en una empresa IT”
 
-**Alerta!!** EverPia ha estat atacada per ciberdelinqüents.  
-La consultora on esteu de becaris ha patit una **fuita d’informació (data breach)** i informació confidencial sobre un projecte en desenvolupament està ara en mans de delinqüents que amenacen amb publicar-la si no es paga un rescat.
+Després de mesos de feina intensa, nits de pizza i commits a última hora, la consultora EverPia ha viscut el seu primer gran èxit. Els clients estan contents, les presentacions van triomfar i, fins i tot, els tècnics van aconseguir fer funcionar el servidor… sense reiniciar-lo cada cinc minuts.  
+Un miracle digne d’estudi.
 
-Això ha causat una gran alarma dins la companyia i s’ha creat un **comitè de crisi** per gestionar la situació.  
-La investigació interna ha revelat que **un dels comptes tècnics va ser compromès a causa de l'ús d'una contrasenya feble o reutilitzada.**
+> “Quan tot funciona, és que no ho has mirat prou bé.”  
+> — Llegenda del sector IT
 
-Com a resposta a aquesta crisi, la **Direcció Tècnica** ha emès una directriu:  
-> Tot el personal tècnic ha de començar a utilitzar un **gestor de contrasenyes validat** per garantir l'ús de credencials úniques i robustes.  
+El primer projecte va ser un èxit. Aquest segon… és una prova de supervivència.  
 
-Se us encarrega la tasca d'avaluar les opcions i crear la documentació necessària per a la formació del personal.
+Benvinguts a **EverPia 2: “Sobreviure en una empresa IT”**, una simulació (massa realista) del que passa quan una empresa tecnològica comença a créixer i a rebre més clients dels que pot gestionar.
 
+Quan el volum augmenta, els problemes també.  
+I quan els servidors cremen, vosaltres sou els bombers digitals.
 
-## 🧩 Fase 1: Anàlisi i Justificació (Document d'Informe)
+EverPia ja no és una petita consultora. Ara gestiona clients, contractes i serveis crítics 24/7.  
+L’equip ha crescut, els projectes s’han multiplicat i el pressupost… bé, el pressupost segueix sent el mateix.  
 
-Heu de redactar un **informe tècnic** que justifiqui la decisió de la Direcció i compari les opcions disponibles.
+Els antics alumnes (vosaltres) heu ascendit. Sou els tècnics júnior del departament IT, i us acaben d’assignar el vostre primer gran repte: **mantenir viva la infraestructura d’EverPia**.
 
-### Contingut obligatori:
+### El vostre dia a dia
+- Apagar focs  
+- Resoldre incidències  
+- Respondre tickets  
+- Mantenir sistemes  
+- Documentar-ho tot (abans que algú formategi per error)  
+- I, si queda temps, aprendre a no perdre els nervis  
 
-### 🔹 Introducció i Justificació
-- Explicació de **per què les contrasenyes febles o reutilitzades són un risc crític** per a l'empresa (atacs de diccionari, *credential stuffing*, etc.).  
-- Descripció de **la funció crucial d'un gestor de contrasenyes** per mitigar aquests riscos.
-
-### 🔹 Comparativa Tècnica
-Realitzeu una **taula comparativa detallada** entre:
-
-**Bitwarden (Alternativa Online / Núvol):**
-- Sincronització entre dispositius.
-- Model de seguretat (*xifratge end-to-end*).
-- Facilitat d'accés multi-dispositiu.
-- Cost / model freemium.
-
-**KeePassX / KeePassXC (Alternativa Offline / Escriptori):**
-- Emmagatzematge local de l'arxiu (KDBX).
-- Independència del núvol.
-- Model *open source*.
-- Portabilitat de l'arxiu.
-
-### 🔹 Avantatges i Inconvenients
-Resumiu els principals **pros i contres de cada model (online vs offline)** des del punt de vista de:
-- Seguretat
-- Usabilitat
-- Continuïtat del negoci
-
-### 🔹 Recomanació
-Concloeu l’informe escollint **l’eina més adequada** per al personal tècnic de l’empresa i **justifiqueu la vostra elecció.**
+És la vida real dins una empresa IT: el caos ben documentat.
 
 
-## 🧭 Fase 2: Guia d'Ús Tècnica (Manual Operatiu)
+## 🎯 Missió del projecte
 
-Utilitzant l’eina seleccionada a la Fase 1 (**Bitwarden**, **KeePassX**, o similar), heu de crear una **Guia d’Ús per a l’Equip Tècnic**, amb captures de pantalla i passos detallats.
+Aquest projecte és la segona temporada d’una sèrie que acaba d’arrencar.  
+Si **EverPia 1** era sobre construir, **EverPia 2** és sobre **sobreviure**.
 
-### Contingut obligatori:
+La vostra missió és demostrar que sou capaços de:
 
-1. **Instal·lació i Configuració Inicial**
-   - Descàrrega, instal·lació i creació del compte mestre o BBDD principal.
+- Resoldre problemes reals d’una infraestructura IT.  
+- Gestionar serveis essencials (DNS, LDAP, LVM…).  
+- Treballar amb rigor tècnic i metodologia àgil.  
+- I mantenir la calma mentre tot sembla fallar.  
 
-2. **Generació de Contrasenyes Segures**
-   - Com utilitzar el generador de contrasenyes (longitud, caràcters especials, etc.).
-
-3. **Exemples d'Ús i Emplenament Automàtic**
-   - Com desar una credencial d’un compte de correu electrònic.
-   - Com desar una credencial d’una aplicació o servei web.
-   - Com utilitzar l’extensió del navegador per emplenar automàticament.
-
-4. **Gestió de Còpies de Seguretat (Backup)**
-   - Com fer una còpia de seguretat de l’arxiu (KDBX en KeePass o exportació en Bitwarden).
-   - Recomanació per emmagatzemar la còpia de forma segura (clau USB xifrada o núvol xifrat).
+> Perquè el coneixement és important, sí, però la serenitat és un servei premium.
 
 
-[Tasca01](Tasca01/README.md)
+## 💡 Objectius formatius
+
+- Consolidar coneixements avançats en sistemes, xarxes i serveis corporatius.  
+- Aplicar tècniques reals de manteniment i optimització de servidors.  
+- Aprendre a resoldre problemes complexos sota pressió.  
+- Practicar la documentació tècnica professional amb GitHub i Markdown.  
+- Desenvolupar competències clau: treball en equip, responsabilitat, organització i autonomia.
+
+A **EverPia 2** ja no hi ha professors: hi ha caps de projecte, companys de suport tècnic i clients impacients.  
+Cada error és una oportunitat per aprendre.  
+Cada “pantalla blava” és un examen de serenitat.  
+Cada “no sé què ha passat, però ara funciona” és un triomf silenciós.
+
+Aquest projecte no és només un conjunt de pràctiques, sinó una immersió total en el món real de les empreses IT.  
+Aprendreu que no n’hi ha prou amb saber instal·lar, sinó que cal entendre, prevenir i comunicar.
+
+> Perquè a EverPia, el lema és clar:  
+> **“Si sobrevius a això... pots sobreviure a qualsevol empresa.”**
+
+
+
 
 
 
