@@ -5,9 +5,6 @@
 Després de mesos de feina intensa, nits de pizza i commits a última hora, la consultora EverPia ha viscut el seu primer gran èxit. Els clients estan contents, les presentacions van triomfar i, fins i tot, els tècnics van aconseguir fer funcionar el servidor… sense reiniciar-lo cada cinc minuts.  
 Un miracle digne d’estudi.
 
-> “Quan tot funciona, és que no ho has mirat prou bé.”  
-> — Llegenda del sector IT
-
 El primer projecte va ser un èxit. Aquest segon… és una prova de supervivència.  
 
 Benvinguts a **EverPia 2: “Sobreviure en una empresa IT”**, una simulació (massa realista) del que passa quan una empresa tecnològica comença a créixer i a rebre més clients dels que pot gestionar.
@@ -31,7 +28,7 @@ Els antics alumnes (vosaltres) heu ascendit. Sou els tècnics júnior del depart
 És la vida real dins una empresa IT: el caos ben documentat.
 
 
-## 🎯 Missió del projecte
+## Missió del projecte
 
 Aquest projecte és la segona temporada d’una sèrie que acaba d’arrencar.  
 Si **EverPia 1** era sobre construir, **EverPia 2** és sobre **sobreviure**.
@@ -46,7 +43,7 @@ La vostra missió és demostrar que sou capaços de:
 > Perquè el coneixement és important, sí, però la serenitat és un servei premium.
 
 
-## 💡 Objectius formatius
+##  Objectius formatius
 
 - Consolidar coneixements avançats en sistemes, xarxes i serveis corporatius.  
 - Aplicar tècniques reals de manteniment i optimització de servidors.  
@@ -62,8 +59,7 @@ Cada “no sé què ha passat, però ara funciona” és un triomf silenciós.
 Aquest projecte no és només un conjunt de pràctiques, sinó una immersió total en el món real de les empreses IT.  
 Aprendreu que no n’hi ha prou amb saber instal·lar, sinó que cal entendre, prevenir i comunicar.
 
-> Perquè a EverPia, el lema és clar:  
-> **“Si sobrevius a això... pots sobreviure a qualsevol empresa.”**
+
 
 
 
