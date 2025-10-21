@@ -23,8 +23,6 @@ D’aquesta manera, es redueix molt el risc d’accés no autoritzat als sisteme
 
 # ⚙️ Comparativa Tècnica
 
-# ⚙️ Comparativa Tècnica
-
 | **Característica**        | **Bitwarden (Online / Núvol)**                     | **Google Password Manager**                      |
 |----------------------------|---------------------------------------------------|------------------------------------------------|
 | **Model de seguretat**     | Xifratge d'extrem a extrem (AES-256)             | Xifratge al servidor Google; no E2E personal |
