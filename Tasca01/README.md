@@ -9,10 +9,8 @@ Per tal d’evitar futurs incidents, la **Direcció Tècnica** exigeix que tot e
 
 Aquesta tasca inclou dues fases:
 
-1. **Informe tècnic (`informe.md`)** — Anàlisi comparativa i justificació de l’eina recomanada.
-2. **Guia d’ús (`guia.md`)** — Manual pràctic per instal·lar, configurar i utilitzar el gestor escollit.
+[Guia Instal·lació](guia.md)
 
----
 
 
 
