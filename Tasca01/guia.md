@@ -2,7 +2,7 @@
 
 Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el gestor de contrasenyes seleccionat per a l’equip tècnic d’EverPia.
 
-## 1️⃣ Instal·lació i Configuració Inicial
+## 1️Instal·lació i Configuració Inicial
 
 ### 🔹 Pas 1: Crear un compte
 1. Accedeix a [https://bitwarden.com](https://bitwarden.com)
@@ -15,7 +15,7 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
 - **Mòbil:** Disponible a Google Play i App Store.  
 - **Extensió del navegador:** Compatible amb Chrome, Firefox, Edge i Brave.
 
-## 2️⃣ Generació de Contrasenyes Segures
+##  Generació de Contrasenyes Segures
 
 1. Obre Bitwarden i prem **"Password Generator"**.  
 2. Configura els paràmetres recomanats:
@@ -24,7 +24,7 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
 3. Copia la contrasenya i desa-la directament al gestor.
 
 
-## 3️⃣ Exemples d’Ús i Emplenament Automàtic
+##  Exemples d’Ús i Emplenament Automàtic
 
 ### 🔸 Desar una credencial de correu electrònic
 1. A Bitwarden, selecciona **Add Item → Login**
@@ -44,7 +44,7 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
 - Quan visitis un web amb credencials desades, Bitwarden emplenarà automàticament l’usuari i la contrasenya.
 
 
-## 4️⃣ Gestió de Còpies de Seguretat (Backup)
+##  Gestió de Còpies de Seguretat (Backup)
 
 1. **Exportar dades:**
    - Obre l’app d’escriptori → *File → Export Vault → .json*
@@ -54,7 +54,7 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
    - En cas de reinstal·lació o nou dispositiu → *Import Data → JSON file*.
 
 
-## 🛡️ Bones pràctiques
+##  Bones pràctiques
 
 ✅ No compartir mai la contrasenya mestra.  
 ✅ Activar sempre l’autenticació en dos passos (2FA).  
