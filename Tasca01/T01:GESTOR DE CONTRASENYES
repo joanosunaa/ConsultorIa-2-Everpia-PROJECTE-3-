@@ -23,9 +23,47 @@ D’aquesta manera, es redueix molt el risc d’accés no autoritzat als sisteme
 
 # ⚙️ Comparativa Tècnica
 
+# ⚙️ Comparativa Tècnica
 
-| Característica | **Bitwarden (Online / Núvol)** | **KeePassXC (Offline / Escriptori)** |
-|----------------|--------------------------------|--------------------------------------|
-| **Model de seguretat** | Xifratge *end-to-end* (AES-256) | Xifratge local d’arxiu KDBX (AES-256) |
-| **Emmagatzematge** |
+| **Característica**        | **Bitwarden (Online / Núvol)**                     | **Google Password Manager**                      |
+|----------------------------|---------------------------------------------------|------------------------------------------------|
+| **Model de seguretat**     | Xifratge d'extrem a extrem (AES-256)             | Xifratge al servidor Google; no E2E personal |
+| **Emmagatzematge**         | Núvol (Bitwarden servers o self-hosted)          | Núvol Google (integrat amb compte Google)    |
+| **Accés multidispositiu**  | Sí (web, app, extensió, mòbil)                   | Sí (Chrome, Android, iOS via Google)         |
+| **Cost / Model freemium**  | Gratuït amb opcions premium (~10€/any)           | Gratuït per a tots els usuaris Google        |
+| **Codi obert**             | Sí, auditat                                      | No                                           |
+| **Sincronització automàtica** | Sí, via núvol                                   | Sí, automàtica amb el compte Google          |
+| **Facilitat d’ús**         | Interfície moderna i intuïtiva                   | Integració nativa amb Google, molt senzilla  |
+| **2FA (autenticació en dos passos)** | Sí                                       | Limitada (depèn de compte Google)            |
+| **Portabilitat**           | Alta (web, app mòbil, self-hosted opcional)     | Mitjana, depèn del compte Google i Chrome    |
+| **Compartició de credencials** | Sí, amb equips i carpetes segures             | No nativa; limitat a compartir amb Google Workspace |
+
+
+### 🔹 Bitwarden (Online / Núvol)
+
+**Avantatges**
+- Sincronització automàtica entre tots els dispositius.
+- Interfície amigable i intuïtiva.
+- Compatible amb 2FA i navegadors.
+- Permet opció *self-hosted* (servidor propi) per controlar les dades.
+
+**Inconvenients**
+- Depèn d’internet i del servidor.
+- Algunes funcions avançades són de pagament.
+- Possible risc si el servidor és atacat (tot i el xifratge).
+
+---
+
+### 🔹 Google Password Manager
+
+**Avantatges**
+- Integració directa amb comptes Google i navegadors Chrome/Android.
+- Sincronització automàtica entre dispositius amb compte Google.
+- Generació automàtica de contrasenyes segures.
+- Gratuït i fàcil d’utilitzar per a usuaris de Google.
+
+**Inconvenients**
+- Depèn completament del compte Google; si és compromès, totes les contrasenyes poden estar en risc.
+- Menys opcions avançades de gestió i compartició de credencials.
+- No ofereix xifratge end-to-end personalitzat (tot es xifra al servidor Google).
 
