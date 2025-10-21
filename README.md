@@ -1,4 +1,4 @@
-# DESCRIPCIÓ DEL PROJECTE (Objectius, repte i producte final)
+# DESCRIPCIÓ DEL PROJECTE 
 
 ## EverPia 2: “Sobreviure en una empresa IT”
 
