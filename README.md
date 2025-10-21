@@ -1,90 +1,80 @@
-# 🧠 Informe Tècnic: Avaluació de Gestors de Contrasenyes per al Personal Tècnic
+# 🧠 Tasca 01: Gestor de Contrasenyes
 
-## 🔐 Introducció i Justificació
+## 🔔 Breu descripció
 
-Recentment, **EverPia** ha patit una greu *fuita d’informació (data breach)* com a conseqüència de l’ús d’una **contrasenya feble o reutilitzada**. Aquest incident ha posat en risc informació confidencial i ha exposat la companyia a **xantatges i pèrdues econòmiques**.
+**Alerta!!** EverPia ha estat atacada per ciberdelinqüents.  
+La consultora on esteu de becaris ha patit una **fuita d’informació (data breach)** i informació confidencial sobre un projecte en desenvolupament està ara en mans de delinqüents que amenacen amb publicar-la si no es paga un rescat.
 
-### Riscos de contrasenyes febles o reutilitzades
-L’ús de contrasenyes poc segures o repetides entre serveis suposa un risc crític per diversos motius:
+Això ha causat una gran alarma dins la companyia i s’ha creat un **comitè de crisi** per gestionar la situació.  
+La investigació interna ha revelat que **un dels comptes tècnics va ser compromès a causa de l'ús d'una contrasenya feble o reutilitzada.**
 
-- **Atacs de diccionari**: Els ciberdelinqüents proven milions de combinacions comunes (com “123456” o “password”) per accedir a comptes.
-- **Credential stuffing**: Si una contrasenya és reutilitzada en diversos serveis, una filtració en un d’ells pot permetre l’accés a tots els altres.
-- **Phishing i enginyeria social**: Les contrasenyes senzilles són fàcils de recordar, però també de descobrir.
+Com a resposta a aquesta crisi, la **Direcció Tècnica** ha emès una directriu:  
+> Tot el personal tècnic ha de començar a utilitzar un **gestor de contrasenyes validat** per garantir l'ús de credencials úniques i robustes.  
 
-Aquest tipus d’atacs poden comprometre **la seguretat global de l’empresa**, provocant pèrdua de dades, dany reputacional i sancions legals.
+Se us encarrega la tasca d'avaluar les opcions i crear la documentació necessària per a la formació del personal.
 
-### Funció d’un gestor de contrasenyes
-Un **gestor de contrasenyes** permet generar, emmagatzemar i gestionar de manera segura contrasenyes úniques i complexes per a cada compte.  
-Les seves principals funcions són:
 
-- 🔸 **Xifratge end-to-end**: Les dades s’emmagatzemen de manera xifrada, només accessibles amb la contrasenya mestra.  
-- 🔸 **Generació automàtica** de contrasenyes robustes.  
-- 🔸 **Sincronització segura** entre dispositius.  
-- 🔸 **Eliminació de la reutilització** de contrasenyes.
+## 🧩 Fase 1: Anàlisi i Justificació (Document d'Informe)
 
----
+Heu de redactar un **informe tècnic** que justifiqui la decisió de la Direcció i compari les opcions disponibles.
 
-## ⚙️ Comparativa Tècnica
+### Contingut obligatori:
 
-| Característica | **Bitwarden (Online / Núvol)** | **KeePassXC (Offline / Escriptori)** |
-|----------------|--------------------------------|--------------------------------------|
-| **Model de seguretat** | Xifratge *end-to-end* (AES-256) | Xifratge local d’arxiu KDBX (AES-256) |
-| **Emmagatzematge** | Núvol (servidors propis o autogestionats) | Local (fitxer KDBX al dispositiu) |
-| **Accés multi-dispositiu** | Sí (web, app, extensió, mòbil) | Sí, però mitjançant còpia manual de l’arxiu |
-| **Model Freemium / Cost** | Gratuït amb opcions premium (~10€/any) | Totalment gratuït i open source |
-| **Codi obert** | Sí (Open Source, auditat) | Sí (Open Source, comunitari) |
-| **Sincronització automàtica** | Sí, via núvol | No nativa (requereix serveis externs com Nextcloud o Dropbox) |
-| **Facilitat d’ús** | Interfície moderna i intuïtiva | Més tècnica, enfocada a usuaris avançats |
-| **Autenticació en dos passos (2FA)** | Sí | Limitada (depèn de l’usuari) |
-| **Portabilitat** | Alta (web i app mòbil) | Mitjana (requereix transferir el fitxer manualment) |
+### 🔹 Introducció i Justificació
+- Explicació de **per què les contrasenyes febles o reutilitzades són un risc crític** per a l'empresa (atacs de diccionari, *credential stuffing*, etc.).  
+- Descripció de **la funció crucial d'un gestor de contrasenyes** per mitigar aquests riscos.
 
----
+### 🔹 Comparativa Tècnica
+Realitzeu una **taula comparativa detallada** entre:
 
-## ⚖️ Avantatges i Inconvenients
+**Bitwarden (Alternativa Online / Núvol):**
+- Sincronització entre dispositius.
+- Model de seguretat (*xifratge end-to-end*).
+- Facilitat d'accés multi-dispositiu.
+- Cost / model freemium.
 
-### 🔹 Bitwarden (Online / Núvol)
-**Avantatges:**
-- Sincronització automàtica entre tots els dispositius.  
-- Interfície amigable i fàcil d’aprendre.  
-- Compatible amb 2FA i navegadors.  
-- Disponible en versió *self-hosted* per a més control intern.
+**KeePassX / KeePassXC (Alternativa Offline / Escriptori):**
+- Emmagatzematge local de l'arxiu (KDBX).
+- Independència del núvol.
+- Model *open source*.
+- Portabilitat de l'arxiu.
 
-**Inconvenients:**
-- Dependència d’internet o del servidor.  
-- Possible risc si el servidor és compromès (encara que les dades estan xifrades).  
-- Cost per a funcions avançades.
+### 🔹 Avantatges i Inconvenients
+Resumiu els principals **pros i contres de cada model (online vs offline)** des del punt de vista de:
+- Seguretat
+- Usabilitat
+- Continuïtat del negoci
 
----
+### 🔹 Recomanació
+Concloeu l’informe escollint **l’eina més adequada** per al personal tècnic de l’empresa i **justifiqueu la vostra elecció.**
 
-### 🔹 KeePassXC (Offline / Escriptori)
-**Avantatges:**
-- No depèn del núvol: màxim control local de les dades.  
-- Totalment gratuït i open source.  
-- Arxiu KDBX fàcil de transportar (USB, disc extern, etc.).  
-- Ideal per a entorns sense connexió o amb requisits de seguretat estrictes.
 
-**Inconvenients:**
-- Sense sincronització automàtica nativa.  
-- Interfície menys intuïtiva per a usuaris no tècnics.  
-- Risc de pèrdua de l’arxiu si no es fan còpies de seguretat.
+## 🧭 Fase 2: Guia d'Ús Tècnica (Manual Operatiu)
 
----
+Utilitzant l’eina seleccionada a la Fase 1 (**Bitwarden**, **KeePassX**, o similar), heu de crear una **Guia d’Ús per a l’Equip Tècnic**, amb captures de pantalla i passos detallats.
 
-## 💡 Recomanació Final
+### Contingut obligatori:
 
-Després d’analitzar les dues opcions, **es recomana implementar _Bitwarden_ com a gestor de contrasenyes per al personal tècnic d’EverPia**.
+1. **Instal·lació i Configuració Inicial**
+   - Descàrrega, instal·lació i creació del compte mestre o BBDD principal.
 
-### Justificació:
-- ✅ Facilita l’adopció gràcies a la seva **interfície intuïtiva** i la sincronització automàtica entre dispositius.  
-- ✅ Ofereix **xifratge end-to-end** i autenticació en dos passos, garantint un alt nivell de seguretat.  
-- ✅ Permet **autogestionar el servidor internament**, combinant els avantatges del núvol amb el control total sobre les dades.  
-- ✅ És **compatible amb equips col·laboratius**, permetent compartir credencials de forma segura.
+2. **Generació de Contrasenyes Segures**
+   - Com utilitzar el generador de contrasenyes (longitud, caràcters especials, etc.).
 
-En conclusió, **Bitwarden és l’opció òptima per a una empresa com EverPia**, que necessita un equilibri entre **seguretat, usabilitat i gestió centralitzada** de credencials.
+3. **Exemples d'Ús i Emplenament Automàtic**
+   - Com desar una credencial d’un compte de correu electrònic.
+   - Com desar una credencial d’una aplicació o servei web.
+   - Com utilitzar l’extensió del navegador per emplenar automàticament.
 
----
+4. **Gestió de Còpies de Seguretat (Backup)**
+   - Com fer una còpia de seguretat de l’arxiu (KDBX en KeePass o exportació en Bitwarden).
+   - Recomanació per emmagatzemar la còpia de forma segura (clau USB xifrada o núvol xifrat).
 
-📅 **Data:** 20 d’octubre de 2025  
-👨‍💻 **Autor:** Equip de Ciberseguretat - Consultora EverPia  
 
-[Tasca01](Tasca01)
+## 📂 Estructura del lliurament
+
+Dins del repositori del **projecte-3**, heu de crear una carpeta anomenada **`tasca01`**, que contingui:
+
+
+
+
