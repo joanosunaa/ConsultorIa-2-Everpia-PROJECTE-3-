@@ -40,8 +40,6 @@ La vostra missió és demostrar que sou capaços de:
 - Treballar amb rigor tècnic i metodologia àgil.  
 - I mantenir la calma mentre tot sembla fallar.  
 
-> Perquè el coneixement és important, sí, però la serenitat és un servei premium.
-
 
 ##  Objectius formatius
 
