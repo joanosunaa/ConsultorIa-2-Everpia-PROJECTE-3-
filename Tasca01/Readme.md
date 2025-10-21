@@ -1,31 +1,24 @@
 # 🧠 Tasca 01: Gestor de Contrasenyes
 
-## 🔔 Breu descripció
+## 🧩 Fase 1: Anàlisi i Justificació 
 
-**Alerta!!** EverPia ha estat atacada per ciberdelinqüents.  
-La consultora on esteu de becaris ha patit una **fuita d’informació (data breach)** i informació confidencial sobre un projecte en desenvolupament està ara en mans de delinqüents que amenacen amb publicar-la si no es paga un rescat.
+###  Introducció i Justificació
+Riscos de contrasenyes febles o reutilitzades
 
-Això ha causat una gran alarma dins la companyia i s’ha creat un **comitè de crisi** per gestionar la situació.  
-La investigació interna ha revelat que **un dels comptes tècnics va ser compromès a causa de l'ús d'una contrasenya feble o reutilitzada.**
+1. **Atacs de diccionari:** Els ciberdelinqüents proven milions de combinacions comunes com “123456” o “password”.
+2. **Credential stuffing:** Si una contrasenya s’utilitza en diversos serveis, una filtració en un pot permetre l’accés a tots els altres.
+3. **Phishing i enginyeria social:** Les contrasenyes senzilles són fàcils d’endevinar o d’obtenir mitjançant correus fraudulents.
+4. **Pèrdua de dades i sancions:** Un compte compromès pot donar accés a dades sensibles, provocant multes i danys reputacionals.
 
-Com a resposta a aquesta crisi, la **Direcció Tècnica** ha emès una directriu:  
-> Tot el personal tècnic ha de començar a utilitzar un **gestor de contrasenyes validat** per garantir l'ús de credencials úniques i robustes.  
+### Funció d’un gestor de contrasenyes
 
-Se us encarrega la tasca d'avaluar les opcions i crear la documentació necessària per a la formació del personal.
+Un gestor de contrasenyes permet:
+- Generar contrasenyes úniques i complexes.
+- Emmagatzemar-les de manera **xifrada**.
+- Sincronitzar-les entre dispositius de forma segura.
+- Evitar la reutilització i l’oblit de contrasenyes
 
----
-
-## 🧩 Fase 1: Anàlisi i Justificació (Document d'Informe)
-
-Heu de redactar un **informe tècnic** que justifiqui la decisió de la Direcció i compari les opcions disponibles.
-
-### Contingut obligatori:
-
-### 🔹 Introducció i Justificació
-- Explicació de **per què les contrasenyes febles o reutilitzades són un risc crític** per a l'empresa (atacs de diccionari, *credential stuffing*, etc.).  
-- Descripció de **la funció crucial d'un gestor de contrasenyes** per mitigar aquests riscos.
-
-### 🔹 Comparativa Tècnica
+### Comparativa Tècnica
 Realitzeu una **taula comparativa detallada** entre:
 
 **Bitwarden (Alternativa Online / Núvol):**
