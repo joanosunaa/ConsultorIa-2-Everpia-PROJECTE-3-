@@ -54,7 +54,7 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
    - En cas de reinstal·lació o nou dispositiu → *Import Data → JSON file*.
 
 
-##  Bones pràctiques
+##  Recomanacions
 
 ✅ No compartir mai la contrasenya mestra.  
 ✅ Activar sempre l’autenticació en dos passos (2FA).  
