@@ -11,7 +11,7 @@ Aquesta tasca inclou dues fases:
 
 [Guia Instal·lació](guia.md)
 
-[Informe](informacio.md)
+[Informe](informe.md)
 
 
 
