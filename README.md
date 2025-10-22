@@ -17,7 +17,7 @@ L’equip ha crescut, els projectes s’han multiplicat i el pressupost… bé, 
 
 Els antics alumnes (vosaltres) heu ascendit. Sou els tècnics júnior del departament IT, i us acaben d’assignar el vostre primer gran repte: mantenir viva la infraestructura d’EverPia.
 
-### El vostre dia a dia
+### El Nostre dia a dia
 - Apagar focs  
 - Resoldre incidències  
 - Respondre tickets  
