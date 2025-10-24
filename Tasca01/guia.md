@@ -37,6 +37,11 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
    - Contrasenya: *(la generada amb Bitwarden)*  
 3. Desa i sincronitza.
 
+![capt6]((IMG/capt6.png)
+
+
+   
+
 ### 🔸 Desar una credencial d’una aplicació o servei web
 1. Accedeix a la web (per exemple, *portal.everpia.com*).  
 2. A la finestra d’autenticació, Bitwarden ofereix guardar automàticament les credencials.  
