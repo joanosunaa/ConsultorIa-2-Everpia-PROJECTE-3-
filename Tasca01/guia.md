@@ -37,7 +37,7 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
    - Contrasenya: *(la generada amb Bitwarden)*  
 3. Desa i sincronitza.
 
-![capt6]((IMG/capt6.png)
+![capt6](IMG/capt6.png)
 
 
    
