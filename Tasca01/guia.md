@@ -53,13 +53,7 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
 3. **Importar dades:**
    - En cas de reinstal·lació o nou dispositiu → *Import Data → JSON file*.
 
-
-##  Recomanacions
-
-No compartir mai la contrasenya mestra.  
-Activar sempre l’autenticació en dos passos (2FA).  
-Fer còpies de seguretat mensuals.  
-Bloquejar Bitwarden automàticament quan no s’utilitzi.  
+  
 
 
 **Data:** 20 d’octubre de 2025  
