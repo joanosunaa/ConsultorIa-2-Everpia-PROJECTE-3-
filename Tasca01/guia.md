@@ -47,6 +47,10 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
 2. A la finestra d’autenticació, Bitwarden ofereix guardar automàticament les credencials.  
 3. Accepta i confirma.
 
+
+
+![capt7](IMG/capt7.png)
+
 ### 🔸 Emplenament automàtic
 - Activa l’extensió del navegador.
 - Quan visitis un web amb credencials desades, Bitwarden emplenarà automàticament l’usuari i la contrasenya.
