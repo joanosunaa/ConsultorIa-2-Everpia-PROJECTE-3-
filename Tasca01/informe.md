@@ -43,7 +43,7 @@ Un gestor de contrasenyes permet:
 - Sincronització automàtica entre dispositius.
 - Interfície moderna i fàcil d’utilitzar.
 - Compatible amb 2FA i navegadors.
-- Permet opció *self-hosted* (autogestionada).
+- Permet opció 0autogestionament.
 
 **Inconvenients**
 - Depèn d’internet o del servidor.
@@ -65,13 +65,13 @@ Un gestor de contrasenyes permet:
 
 ##  Recomanació Final
 
-Després de l’anàlisi, es recomana implementar **Bitwarden** com a gestor de contrasenyes per al personal tècnic d’EverPia.
+Després de l’anàlisi, recomanO implementar Bitwarden com a gestor de contrasenyes per al personal tècnic d’EverPia.
 
 ### Justificació:
  Interfície intuïtiva i fàcil d’adoptar.  
  Sincronització automàtica entre dispositius.  
- Alt nivell de seguretat amb xifratge end-to-end i 2FA.  
- Possibilitat d’instal·lar un servidor intern (*self-hosted*) per mantenir el control de les dades.  
+ Alt nivell de seguretat amb xifratge i autentificació.  
+ Possibilitat d’instal·lar un servidor intern per mantenir el control de les dades.  
  Facilita la col·laboració i el treball en equip amb credencials compartides de manera segura.
 
 
