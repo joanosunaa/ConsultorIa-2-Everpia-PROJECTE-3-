@@ -26,6 +26,7 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
 3. Copia la contrasenya i desa-la directament al gestor.
 
 ![capt5](IMG/capt5.png)
+
 ##  Exemples d’Ús i Emplenament Automàtic
 
 ### 🔸 Desar una credencial de correu electrònic
