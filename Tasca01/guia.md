@@ -15,6 +15,8 @@ Aquesta guia explica com instal·lar, configurar i utilitzar **Bitwarden**, el g
 - **Mòbil:** Disponible a Google Play i App Store.  
 - **Extensió del navegador:** Compatible amb Chrome, Firefox, Edge i Brave.
 
+![capt1](IMG/capt1.png)
+
 ##  Generació de Contrasenyes Segures
 
 1. Obre Bitwarden i prem **"Password Generator"**.  
