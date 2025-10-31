@@ -24,10 +24,22 @@ L’exercici demana que configurem dos adaptadors de xarxa:
 
 ![captura4](img/capt4.png)                   ![captura5](img/capt5.png)
 
-###  Anàlisi Registre 1
+### 💻 Execució de comandes a la terminal
 
-- **IP de resposta:** 83.247.151.214  
-- **Valor TTL:** 719
+Primer de tot, hem d’**obrir la terminal** i introduir els **comandaments indicats a la pràctica**.
+
+
+####  Comanda 1: Consulta Bàsica de Registre A
+
+Primer de tot hem d’obrir la terminal de la MV i hem de ficar els comandaments que fiquen a la pràctica.
+
+Comanda 1: Consulta Bàsica de Registre A  
+Executa dig xtec.cat A  
+Anàlisi: Identifica la IP de resposta, el valor TTL i el servidor que ha respost a la consulta.
+
+![captura6](img/capt6.png)
+
+
 
 
 
