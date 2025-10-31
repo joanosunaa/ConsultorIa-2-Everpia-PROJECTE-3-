@@ -92,9 +92,29 @@ La informació que ens dona dels registres és quines adreces no estan autoritza
 -  Seleccionar `type=A` i com a domini de consulta `tecnocampus.cat`  
 - Anàlisi: Per què indica que la resposta és no autoritativa?
 
-> Una resposta no autoritativa significa que la informació rebuda prové d’un servidor DNS intermediari (cache) i no del servidor autoritzat que té autoritat sobre el domini. Això és habitual quan fem consultes a través de servidors DNS de tercers.
+Una resposta no autoritativa significa que la informació rebuda prové d’un servidor DNS intermediari (cache) i no del servidor autoritzat que té autoritat sobre el domini. Això és habitual quan fem consultes a través de servidors DNS de tercers.
 
 ![captura13](img/capt13.png)
+
+
+## Anàlisi Comanda 1: Consulta Bàsica no Autoritativa
+
+No és una resposta autoritativa perquè hi ha un servidor intermediari.
+
+
+## Comanda 2: Consultes autoritatives
+
+- **Acció:** Escriure `server IP` i escriure la IP del primer servidor de noms del domini `tecnocampus.cat` que s’ha obtingut d’una consulta anterior.  
+  A continuació, indiqueu que voleu consultar registres de tipus **A** i del domini `tecnocampus.cat`  
+
+- **Anàlisi:** Quines diferències s’observen a la resposta obtinguda amb la comanda 1?  
+
+Hem intentat connectar-nos al servidor de `tecnocampus`, però al no ser autoritatius del servidor `tecnocampus` no ens ha deixat connectar-nos. A continuació ho intentarem amb `escolapia.cat`.
+
+![captura14](img/capt14.png)
+
+![captura15](img/capt15.png)
+
 
 
 
