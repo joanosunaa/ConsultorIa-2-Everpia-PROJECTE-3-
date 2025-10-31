@@ -85,6 +85,19 @@ Executa `dig -x 147.83.2.135`
 
 La informació que ens dona dels registres és quines adreces no estan autoritzades, com podem veure en pantalla.
 
+# Comprovació de Resolució amb `nslookup` (Multiplataforma)
+
+## Comanda 1: Consulta Bàsica no Autoritativa
+
+-  Seleccionar `type=A` i com a domini de consulta `tecnocampus.cat`  
+- Anàlisi: Per què indica que la resposta és no autoritativa?
+
+> Una resposta no autoritativa significa que la informació rebuda prové d’un servidor DNS intermediari (cache) i no del servidor autoritzat que té autoritat sobre el domini. Això és habitual quan fem consultes a través de servidors DNS de tercers.
+
+![captura13](img/capt13.png)
+
+
+
 
 
 
