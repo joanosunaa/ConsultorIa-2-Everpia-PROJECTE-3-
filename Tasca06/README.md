@@ -79,7 +79,7 @@ També es pot fer d’una manera més efectiva la qual  surt tota la informació
 Executa `dig -x 147.83.2.135`  
 **Anàlisi:** Quina informació sobre els registres s’obté?
 
-![captura12](img/captura12.png)
+![captura12](img/capt12.png)
 
 ## ANÀLISI COMANDA 4
 
