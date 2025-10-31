@@ -22,7 +22,7 @@ L’exercici demana que configurem dos adaptadors de xarxa:
 - **Adaptador 1:** NAT  
 - **Adaptador 2:** Adaptador pont  
 
-![captura4](img/captura4.png)
+![captura4](img/capt4.png)
 
 ###  Anàlisi Registre 1
 
