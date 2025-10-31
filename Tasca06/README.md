@@ -53,6 +53,26 @@ Anàlisi: Quines diferències s’observen a la resposta obtinguda amb la comand
 La principal diferència és que els registres **NS** indica quins servidors tenen autoritat sobre el domini i a diferència el **TTL** indica el temps de resposta que el DNS tarda en guardar-ho en cachè.
 
 
+## Comanda 3: Consulta Detallada SOA
+
+Executa `dig escolapia.cat SOA`  
+**Anàlisi:** Quina és la informació del correu de l'administrador i el número de sèrie del domini?
+
+![captura8](img/capt8.png)
+
+![captura9](img/capt9.png)
+
+## ANÀLISI COMANDA 3
+
+La informació del correu electrònic del administrador: `root.dns1.nominalia.com`  
+I el seu número de sèrie és: `1761028965 86400 7200 2592000 300`
+
+També es pot fer d’una manera més efectiva la qual  surt tota la informació del domini.
+
+![captura10](img/capt10.png)
+
+![captura11](img/capt11.png)
+
 
 
 
