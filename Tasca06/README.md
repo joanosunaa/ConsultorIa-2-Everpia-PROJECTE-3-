@@ -9,3 +9,7 @@ Primer de tot, hem d’instal·lar una **màquina Zorin OS** al nostre **Virtual
 Ara hem de fer la instal·lació del sistema operatiu i, un cop la tinguem feta, hem de començar amb la tasca.
 
 ![captura2](img/capt2.png)
+
+Un cop hem acabat de configurar la instal·lació, hem de començar amb la pràctica.
+
+![captura3](img/capt3.png)
