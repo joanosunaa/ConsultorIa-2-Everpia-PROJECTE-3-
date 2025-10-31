@@ -74,6 +74,17 @@ També es pot fer d’una manera més efectiva la qual  surt tota la informació
 ![captura11](img/capt11.png)
 
 
+## Comanda 4: Consulta resolució inversa
+
+Executa `dig -x 147.83.2.135`  
+**Anàlisi:** Quina informació sobre els registres s’obté?
+
+![captura12](img/captura12.png)
+
+## ANÀLISI COMANDA 4
+
+La informació que ens dona dels registres és quines adreces no estan autoritzades, com podem veure en pantalla.
+
 
 
 
