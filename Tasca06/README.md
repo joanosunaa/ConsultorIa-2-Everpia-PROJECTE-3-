@@ -4,4 +4,4 @@
 
 Primer de tot, hem d’instal·lar una **màquina Zorin OS** al nostre **VirtualBox**.
 
-
+![captura1](img/capt1)
