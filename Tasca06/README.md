@@ -39,6 +39,9 @@ Anàlisi: Identifica la IP de resposta, el valor TTL i el servidor que ha respos
 
 ![captura6](img/capt6.png)
 
+ANÀLISI REGISTRE 1:  
+La IP és **83.247.151.214** i el valor **TTL és 719**.
+
 
 
 
