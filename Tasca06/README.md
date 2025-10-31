@@ -113,6 +113,8 @@ Hem intentat connectar-nos al servidor de `tecnocampus`, però al no ser autorit
 
 ![captura14](img/capt14.png)
 
+Al servidor escolapia.cat si que ens ha deixat conectarnos ja que si que som autoritatius, es a dir el nostre pc si que esta autorizat a accedir al servidor, per veure com ho he fet us deixo la captura
+
 ![captura15](img/capt15.png)
 
 
