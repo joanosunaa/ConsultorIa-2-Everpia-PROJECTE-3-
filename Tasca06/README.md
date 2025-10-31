@@ -48,6 +48,10 @@ Anàlisi: Quines diferències s’observen a la resposta obtinguda amb la comand
 
 ![captura7](img/capt7.png)
 
+## ANÀLISI COMANDA 2
+
+La principal diferència és que els registres **NS** indica quins servidors tenen autoritat sobre el domini i a diferència el **TTL** indica el temps de resposta que el DNS tarda en guardar-ho en cachè.
+
 
 
 
