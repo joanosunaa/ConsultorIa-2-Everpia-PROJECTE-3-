@@ -24,7 +24,7 @@ L’exercici demana que configurem dos adaptadors de xarxa:
 
 ![captura4](img/capt4.png)                   ![captura5](img/capt5.png)
 
-### 💻 Execució de comandes a la terminal
+###  Execució de comandes a la terminal
 
 Primer de tot, hem d’**obrir la terminal** i introduir els **comandaments indicats a la pràctica**.
 
@@ -41,6 +41,12 @@ Anàlisi: Identifica la IP de resposta, el valor TTL i el servidor que ha respos
 
 ANÀLISI REGISTRE 1:  
 La IP és **83.247.151.214** i el valor **TTL és 719**.
+
+#### Comanda 2: Consultes autoritatives  
+Escriure server IP i escriure la IP del primer servidor de noms del domini tecnocampus.cat que s’ha obtingut d’una consulta anterior. A continuació, indiqueu que voleu consultar registres de tipus A i del domini tecnocampus.cat  
+Anàlisi: Quines diferències s’observen a la resposta obtinguda amb la comanda 1?
+
+![captura7](img/capt7.png)
 
 
 
