@@ -118,8 +118,7 @@ Al servidor escolapia.cat si que ens ha deixat conectarnos ja que si que som aut
 ![captura15](img/capt15.png)
 
 
-## T06: Fase Práctica
-
+## T06: Fase Teòric
 https://drive.google.com/drive/folders/1VVTGfJGXGHnBadzRvUFD9WaXVi7Iv8EA
 
 
