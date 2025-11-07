@@ -57,6 +57,18 @@ Cada “no sé què ha passat, però ara funciona” és un triomf silenciós.
 Aquest projecte no és només un conjunt de pràctiques, sinó una immersió total en el món real de les empreses IT.  
 Aprendreu que no n’hi ha prou amb saber instal·lar, sinó que cal entendre, prevenir i comunicar.
 
+# Actividades del Proyecto
+
+En este repositorio encontrarás las diferentes tareas realizadas:
+
+## Tasques Del Projecte
+- [Tasca 01](./Tasca01/README.md)
+- [Tasca 04](./Tasca04/)
+- [Tasca 06](./Tasca06/)
+
+
+
+
 
 
 
