@@ -6,7 +6,11 @@ Detalls de la Configuració
 ## T.CLI.01
 Instal·lació del Client.
 Instal·lar un client Ubuntu Desktop i configurar la interfície de xarxa per comunicar-se amb el servidor (Host-Only).
-- hem de configurar els adaptadords primer de tot
+
+-  Primer de tot hem de configurar els adaptadords
+
+
+
 ![captura1](img/capt1.png)
 
 
