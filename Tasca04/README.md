@@ -25,10 +25,12 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 ![captura1](img/capt1.png)                       
 
 | R.INF.02 | Interfície de Xarxa Pública. | NAT (Per accés a Internet i descàrrega de paquets). |
+
 ![captura2](img/capt2.png)
 
 | R.INF.03 | Interfície de Xarxa Privada. | Host-Only (Per comunicació privada amb el client virtual i la màquina física). |
- ![captura3](img/capt3.png)
+
+![captura3](img/capt3.png)
 
 
 ## 3. Tasques d'Implementació i Configuració del Servidor LDAP
@@ -42,9 +44,11 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 ![captura4](img/capt4.png)
 
 | T.LDAP.02 | Configuració de la base de dades. | Nom del Domini: `innovatechXX.test`<br>Contrasenya: `p@ssw0rd` |
+
 ![captura5](img/capt5.png)
 
 | T.LDAP.03 | Configuració de la contrasenya d’administrador. | Contrasenya: `p@ssw0rd`.<br>Acceptar l’eliminació de la base de dades existent i fer un backup automàtic. |
+
 ![captura6](img/capt6.png)
 
 ![captura7](img/capt7.png)
@@ -142,6 +146,7 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 ![captura40](img/capt38png)
 
 | T.CLI.06 | Comprovació del Sistema. | Executar `getent passwd` per verificar usuaris LDAP visibles localment. |
+
 ![captura41](img/capt41.png)    
 
 | T.CLI.07 | Prova d'Accés Final. | Reiniciar i iniciar sessió amb `tech01`. Verificar creació automàtica de la carpeta personal. |
