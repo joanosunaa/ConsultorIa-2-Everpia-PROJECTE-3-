@@ -36,11 +36,10 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 |----|-------------------------|-----------------------------|
 | T.LDAP.01 | Instal·lació del servei OpenLDAP. | Mostrar el resultat de la comanda `slapcat` per validar la instal·lació base. |
 ![captura4](img/capt4.png)
-
 | T.LDAP.02 | Configuració de la base de dades. | Nom del Domini: `innovatechXX.test`<br>Contrasenya: `p@ssw0rd` |
-)![captura5](img/capt5.png)
+![captura5](img/capt5.png)
 | T.LDAP.03 | Configuració de la contrasenya d’administrador. | Contrasenya: `p@ssw0rd`.<br>Acceptar l’eliminació de la base de dades existent i fer un backup automàtic. |
-
+![captura5](img/capt6.png)
 | T.LDAP.04 | Creació d’Unitats Organitzatives (OU) inicials. | Crear dues OUs: `users` i `groups` mitjançant un fitxer `.ldif`. |
 
 | T.LDAP.05 | Validació de les Unitats Organitzatives. | Executar `ldapsearch -xLLL -b "dc=innovatechXX,dc=test"` per comprovar les OUs creades. |
