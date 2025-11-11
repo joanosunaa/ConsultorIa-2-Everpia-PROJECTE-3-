@@ -55,6 +55,9 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 | ID | Descripció de la Tasca | Detalls de la Configuració |
 |----|-------------------------|-----------------------------|
 | T.LAM.01 | Instal·lació del Gestor d'Usuaris LDAP (LAM). | Executar `sudo apt install ldap-account-manager -y`.<br>Accedir via navegador a `https://192.168.56.101/lam`. |
+![captura14](img/capt14.png)
+![captura15](img/capt15.png)
+![captura16](img/capt16.png)
 | T.LAM.02 | Accés Remot i Configuració. | Accedir des de la màquina física mitjançant la IP Host-Only.<br>Configuració inicial amb contrasenya `lam`. |
 | T.LAM.03 | Configuració per defecte. | Definir OUs per defecte: `users` i `groups`.<br>Modificar els camps `LDAP suffix` a les seccions corresponents i desar els canvis. |
 | T.LAM.04 | Creació de Grups. | Crear dos grups de seguretat: `tech` i `manager`. |
@@ -73,5 +76,5 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 | T.CLI.05 | Configuració del Client. | Modificar els arxius de configuració i documentar els canvis realitzats. |
 | T.CLI.06 | Comprovació del Sistema. | Executar `getent passwd` per verificar usuaris LDAP visibles localment. |
 | T.CLI.07 | Prova d'Accés Final. | Reiniciar i iniciar sessió amb `tech01`. Verificar creació automàtica de la carpeta personal. |
-![captura16](img/capt16.png)
+
 
