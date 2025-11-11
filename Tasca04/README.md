@@ -78,10 +78,19 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 
 | ID | Descripció de la Tasca | Detalls de la Configuració |
 |----|-------------------------|-----------------------------|
-| T.CLI.01 | Instal·lació del Client. | Instal·lar Ubuntu Desktop i configurar interfície Host-Only. |                             
+| T.CLI.01 | Instal·lació del Client. | Instal·lar Ubuntu Desktop i configurar interfície Host-Only. |  
+![captura26](img/capt26.png)                             ![captura27](img/capt27.png)
 | T.CLI.02 | Resolució de Noms. | Afegir al fitxer `/etc/hosts` la IP del servidor associada a `server.innovatechXX.test`. |
+![captura28](img/capt28.png)
 | T.CLI.03 | Validació de la Connectivitat LDAP. | Provar connexió amb `ldapsearch` des del client. |
+![captura29](img/capt29.png)
 | T.CLI.04 | Mòduls d'Autenticació. | Instal·lar els mòduls necessaris per a l’autenticació LDAP. |
+![captura30](img/capt30.png)
+![captura31](img/capt32.png)
+![captura33](img/capt33.png)
+![captura34](img/capt34.png)
+![captura35](img/capt35.png)
+![captura36](img/capt36.png)
 | T.CLI.05 | Configuració del Client. | Modificar els arxius de configuració i documentar els canvis realitzats. |
 | T.CLI.06 | Comprovació del Sistema. | Executar `getent passwd` per verificar usuaris LDAP visibles localment. |
 | T.CLI.07 | Prova d'Accés Final. | Reiniciar i iniciar sessió amb `tech01`. Verificar creació automàtica de la carpeta personal. |
