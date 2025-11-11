@@ -63,33 +63,19 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 | T.CLI.03 | Validació de la Connectivitat LDAP. | Provar connexió amb `ldapsearch` des del client. |
 ![captura4](img/capt4.png)
 | T.CLI.04 | Mòduls d'Autenticació. | Instal·lar els mòduls necessaris per a l’autenticació LDAP. |
-
 ![captura5](img/capt5.png)
-
 ![captura6](img/capt6.png)
-
 ![captura7](img/capt7.png)
-
 ![captura8](img/capt8.png)
-
 ![captura9](img/capt9.png)
-
 ![captura10](img/capt10.png)
-
 | T.CLI.05 | Configuració del Client. | Modificar els arxius de configuració i documentar els canvis realitzats. |
 ![captura11](img/capt11.png)
-
 ![captura12](img/capt12.png)
-
 ![captura13](img/capt13.png)
-
 ![captura14](img/capt14.png)
-
 | T.CLI.06 | Comprovació del Sistema. | Executar `getent passwd` per verificar usuaris LDAP visibles localment. |
-
 ![captura15](img/capt15.png)
-
 | T.CLI.07 | Prova d'Accés Final. | Reiniciar i iniciar sessió amb `tech01`. Verificar creació automàtica de la carpeta personal. |
-
 ![captura16](img/capt16.png)
 
