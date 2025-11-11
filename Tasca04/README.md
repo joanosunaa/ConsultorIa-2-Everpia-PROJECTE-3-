@@ -63,8 +63,14 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 ![captura18](img/capt18.png)
 ![captura19](img/capt19.png)
 | T.LAM.03 | Configuració per defecte. | Definir OUs per defecte: `users` i `groups`.<br>Modificar els camps `LDAP suffix` a les seccions corresponents i desar els canvis. |
+![captura20](img/capt20.png)
+![captura21](img/capt21.png)
 | T.LAM.04 | Creació de Grups. | Crear dos grups de seguretat: `tech` i `manager`. |
+![captura22](img/capt22.png)
+![captura23](img/capt23.png)
+![captura24](img/capt24.png)
 | T.LAM.05 | Creació d'Usuaris de Prova. | Crear usuaris `tech01` (membre de `tech`) i `manager01` (membre de `manager`). |
+![captura25](img/capt25.png)
 
 
 
