@@ -20,8 +20,10 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 
 | ID | Descripció del Requeriment | Configuració Requerida |
 |----|-----------------------------|--------------------------|
-| R.INF.01 | Configuració de la màquina Server (Server Hostname). | `server.innovatechXX.test` | ![captura1](img/capt1.png)  |                              
-| R.INF.02 | Interfície de Xarxa Pública. | NAT (Per accés a Internet i descàrrega de paquets). | ![captura2](img/capt2.png)  |
+| R.INF.01 | Configuració de la màquina Server (Server Hostname). | `server.innovatechXX.test` |
+![captura1](img/capt1.png)                       
+| R.INF.02 | Interfície de Xarxa Pública. | NAT (Per accés a Internet i descàrrega de paquets). |
+![captura2](img/capt2.png)
 | R.INF.03 | Interfície de Xarxa Privada. | Host-Only (Per comunicació privada amb el client virtual i la màquina física). |
  ![captura3](img/capt3.png)
 
