@@ -21,11 +21,11 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 | ID | Descripció del Requeriment | Configuració Requerida |
 |----|-----------------------------|--------------------------|
 | R.INF.01 | Configuració de la màquina Server (Server Hostname). | `server.innovatechXX.test` |
-![captura1](img/capt1.png)                                 ![captura2](img/capt2.png) 
+![captura1](img/capt1.png)                                
 | R.INF.02 | Interfície de Xarxa Pública. | NAT (Per accés a Internet i descàrrega de paquets). |
-![captura3](img/capt3.png)
+![captura2](img/capt2.png) 
 | R.INF.03 | Interfície de Xarxa Privada. | Host-Only (Per comunicació privada amb el client virtual i la màquina física). |
-![captura4](img/capt4.png)
+ ![captura3](img/capt3.png)
 
 
 ## 3. Tasques d'Implementació i Configuració del Servidor LDAP
@@ -35,21 +35,14 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 | ID | Descripció de la Tasca | Detalls de la Configuració |
 |----|-------------------------|-----------------------------|
 | T.LDAP.01 | Instal·lació del servei OpenLDAP. | Mostrar el resultat de la comanda `slapcat` per validar la instal·lació base. |
-![captura5](img/capt5.png)
-![captura6](img/capt6.png)
-![captura7](img/capt7.png)
-![captura8](img/capt8.png)
-![captura9](img/capt9.png)
-![captura10](img/capt10.png)
+![captura4](img/capt4.png)
+
 | T.LDAP.02 | Configuració de la base de dades. | Nom del Domini: `innovatechXX.test`<br>Contrasenya: `p@ssw0rd` |
-![captura11](img/capt11.png)
-![captura12](img/capt12.png)
-![captura13](img/capt13.png)
-![captura14](img/capt14.png)
+)![captura5](img/capt5.png)
 | T.LDAP.03 | Configuració de la contrasenya d’administrador. | Contrasenya: `p@ssw0rd`.<br>Acceptar l’eliminació de la base de dades existent i fer un backup automàtic. |
-![captura15](img/capt15.png)
+
 | T.LDAP.04 | Creació d’Unitats Organitzatives (OU) inicials. | Crear dues OUs: `users` i `groups` mitjançant un fitxer `.ldif`. |
-![captura16](img/capt16.png)a
+
 | T.LDAP.05 | Validació de les Unitats Organitzatives. | Executar `ldapsearch -xLLL -b "dc=innovatechXX,dc=test"` per comprovar les OUs creades. |
 
 
