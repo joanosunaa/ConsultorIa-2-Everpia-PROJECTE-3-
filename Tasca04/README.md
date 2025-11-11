@@ -47,7 +47,8 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 ![captura10](img/capt10.png)
 | T.LDAP.05 | Validació de les Unitats Organitzatives. | Executar `ldapsearch -xLLL -b "dc=innovatechXX,dc=test"` per comprovar les OUs creades. |
 ![captura11](img/capt11.png)
-
+![captura12](img/capt12.png)
+![captura13](img/capt13.png)
 
 ### 3.2 Gestió i Administració (LAM)
 
