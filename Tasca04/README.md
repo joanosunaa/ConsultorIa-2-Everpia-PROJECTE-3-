@@ -92,8 +92,8 @@ La missió és implementar el servei OpenLDAP en un servidor Linux: instal·lar 
 ![captura50](img/capt50.png)
 | T.CLI.05 | Configuració del Client. | Modificar els arxius de configuració i documentar els canvis realitzats. |
 ![captura36](img/capt36.png)
-![captura37](img/capt37.png)
-![captura38](img/capt38png)
+![captura39](img/capt39.png)
+![captura40](img/capt40png)
 
 | T.CLI.06 | Comprovació del Sistema. | Executar `getent passwd` per verificar usuaris LDAP visibles localment. |
 ![captura41](img/capt41.png)
