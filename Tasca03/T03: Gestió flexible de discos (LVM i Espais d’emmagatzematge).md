@@ -1,7 +1,7 @@
 # 🪟 Solució d’Emmagatzematge a Windows amb **Storage Spaces**
 
 
-# 📌 1. Creació del Storage Pool
+# 1. Creació del Storage Pool
 
 ## ➤ 1.1 Afegir tres discos virtuals de 10 GB
 Afegim tres discos des de la configuració de la màquina virtual.
@@ -19,7 +19,7 @@ Afegim tres discos des de la configuració de la màquina virtual.
 
 
 
-# 📌 2. Creació d’un espai amb **Mirall Doble**
+#  2. Creació d’un espai amb **Mirall Doble**
 
 ## ➤ 2.1 Configuració del mirall doble
 - Seleccionem **dos discos** del Storage Pool.
@@ -37,7 +37,7 @@ Afegim tres discos des de la configuració de la màquina virtual.
 2. Apaguem la VM i eliminem físicament **un disc** del mirall.  
 3. Reiniciem.
 
-💡 **Resultat esperat:**  
+   
 El sistema mostra una advertència però **l’arxiu continua disponible**.
 
  
@@ -45,20 +45,20 @@ El sistema mostra una advertència però **l’arxiu continua disponible**.
 
 
 
-# 📌 3. Substitució del disc fallat
+#  3. Substitució del disc fallat
 
 1. Afegim un nou disc a la VM.  
 2. L’assignem al mateix Storage Pool.  
 3. Windows el detecta i reconstrueix automàticament el mirall.
 
-📌 *Així garantim que no hi ha pèrdua de dades.*
+ *Així garantim que no hi ha pèrdua de dades.*
 
 
 [capt5](img/capt5.png)
 
 
 
-# 📌 4. Creació d’un **Mirall Triple**
+#  4. Creació d’un **Mirall Triple**
 
 ## ➤ 4.1 Esborrar l’espai anterior
 Esborrem l’espai amb mirall doble per crear el nou espai.
@@ -78,7 +78,7 @@ Configuració:
 
 
 
-## 💡 Avantatges del Mirall Triple
+##  Avantatges del Mirall Triple
 
 | Configuració | Tolerància a fallades | Eficiència d'espai | Fiabilitat |
 |--------------|------------------------|----------------------|------------|
@@ -89,7 +89,7 @@ Configuració:
 
 
 
-# 📌 5. Prova de resiliència del Mirall Triple
+#  5. Prova de resiliència del Mirall Triple
 
 ## ➤ 5.1 Eliminació de dos discos
 Amb la VM apagada, eliminem **dos discos** del mirall triple.
@@ -109,8 +109,7 @@ En reiniciar:
 [capt9](img/capt9.png)
 
 
-
-# 📌 6. Reconnectar els discos eliminats
+#  6. Reconnectar els discos eliminats
 
 Quan tornem a afegir els discos:
 - Windows els detecta
@@ -121,7 +120,7 @@ Quan tornem a afegir els discos:
 [capt10](img/capt10.png)
 
 
-# 📌 7. Creació d’un espai amb **Paritat**
+#  7. Creació d’un espai amb **Paritat**
 
 ## ➤ 7.1 Configuració
 Esborrem l’espai anterior i configurem un nou espai amb:
@@ -146,7 +145,7 @@ Esborrem l’espai anterior i configurem un nou espai amb:
 | **Paritat** | Mitjana | **Alta** | Emmagatzematge massiu |
 
 
-# 📌 8. Gestió del Storage Pool
+#  8. Gestió del Storage Pool
 
 Des de la consola podem veure:
 - Estat dels discos (OK / Fallats)  
@@ -159,7 +158,7 @@ Des de la consola podem veure:
 [capt12](img/capt12.png)
 
 
-# 🟩 Conclusions
+#  Conclusions
 
 La solució de **Windows Storage Spaces** ofereix:
 
@@ -169,6 +168,6 @@ La solució de **Windows Storage Spaces** ofereix:
 ✔️ Gestió centralitzada i intuïtiva  
 ✔️ Adaptació flexible (mirall, triple mirall, paritat)
 
-Una solució totalment adequada per **Garriga i Associats**, garantint seguretat, disponibilitat contínua i màxima integritat en les seves dades legals.
+
 
 
