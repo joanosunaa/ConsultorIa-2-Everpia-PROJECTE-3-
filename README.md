@@ -63,7 +63,7 @@ En este repositorio encontrarás las diferentes tareas realizadas:
 
 ## Tasques Del Projecte
 - [Tasca 01](./Tasca01/)
-- [Tasca 02](./Tasca02/)
+- [Tasca 03](./Tasca03/)
 - [Tasca 04](./Tasca04/)
 - [Tasca 06](./Tasca06/)
 
