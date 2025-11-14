@@ -6,7 +6,6 @@
 ## ➤ 1.1 Afegir tres discos virtuals de 10 GB
 Afegim tres discos des de la configuració de la màquina virtual.
 
-📸 **Captura:**  
 [capt1](img/capt1.png)
 
 
@@ -15,7 +14,7 @@ Afegim tres discos des de la configuració de la màquina virtual.
 2. Seleccionem els tres discos nous.  
 3. Creem el **Storage Pool inicial**.
 
-📸 **Captura:**  
+
 [capt2](img/capt2.png)
 
 
@@ -28,7 +27,7 @@ Afegim tres discos des de la configuració de la màquina virtual.
   - 🔒 *Resiliència*: **Mirall**
   - 📏 *Mida*: **20 GB**
 
-📸 **Captura:**  
+
 [capt3](img/capt3.png)
 
 
@@ -41,7 +40,7 @@ Afegim tres discos des de la configuració de la màquina virtual.
 💡 **Resultat esperat:**  
 El sistema mostra una advertència però **l’arxiu continua disponible**.
 
-📸 **Captura:**  
+ 
 [capt4](img/capt4.png)
 
 
@@ -54,7 +53,7 @@ El sistema mostra una advertència però **l’arxiu continua disponible**.
 
 📌 *Així garantim que no hi ha pèrdua de dades.*
 
-📸 **Captura:**  
+
 [capt5](img/capt5.png)
 
 
@@ -64,7 +63,7 @@ El sistema mostra una advertència però **l’arxiu continua disponible**.
 ## ➤ 4.1 Esborrar l’espai anterior
 Esborrem l’espai amb mirall doble per crear el nou espai.
 
-📸  
+
 [capt6](img/capt6.png)
 
 
@@ -74,7 +73,7 @@ Configuració:
 - 🔐 **Tipus:** Mirall triple  
 - 🧩 **Discos:** 3  
 
-📸  
+
 [capt7](img/capt7.png)
 
 
@@ -95,7 +94,7 @@ Configuració:
 ## ➤ 5.1 Eliminació de dos discos
 Amb la VM apagada, eliminem **dos discos** del mirall triple.
 
-📸  
+
 [capt8](img/capt8.png)
 
 
@@ -106,7 +105,7 @@ En reiniciar:
 - Les dades continuen disponibles.  
 - L’estat del Storage Space mostra alertes, però es manté funcional.
 
-📸  
+
 [capt9](img/capt9.png)
 
 
@@ -118,7 +117,7 @@ Quan tornem a afegir els discos:
 - Comença la **reconstrucció automàtica**
 - Tot el contingut reapareix correctament
 
-📸  
+
 [capt10](img/capt10.png)
 
 
@@ -130,7 +129,7 @@ Esborrem l’espai anterior i configurem un nou espai amb:
 - Requereix **mínim 3 discos**
 - Ideal per estalviar espai
 
-📸  
+ 
 [capt11](img/capt11.png)
 
 
@@ -156,7 +155,7 @@ Des de la consola podem veure:
 - Estat del pool  
 - Necessitat de reconstrucció
 
-📸  
+  
 [capt12](img/capt12.png)
 
 
