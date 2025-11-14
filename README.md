@@ -62,7 +62,8 @@ Aprendreu que no n’hi ha prou amb saber instal·lar, sinó que cal entendre, p
 En este repositorio encontrarás las diferentes tareas realizadas:
 
 ## Tasques Del Projecte
-- [Tasca 01](./Tasca01/README.md)
+- [Tasca 01](./Tasca01/)
+- [Tasca 02](./Tasca02/)
 - [Tasca 04](./Tasca04/)
 - [Tasca 06](./Tasca06/)
 
