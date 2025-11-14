@@ -1,1 +1,12 @@
+# 🪟 Solució d’Emmagatzematge a Windows amb Storage Spaces  
+Documentació tècnica per al client **Garriga i Associats**
+
+Aquesta guia descriu la configuració, demostració i prova de resiliència dels **Espais d’Emmagatzematge (Storage Spaces)** de Windows 11 per garantir alta disponibilitat, redundància i escalabilitat.
+
+# 1️⃣ Creació del Storage Pool
+
+## ✔️ Afegir tres discos virtuals de 10 GB
+Des de la configuració de la màquina virtual afegim tres discos nous.
+
+📸  
 
