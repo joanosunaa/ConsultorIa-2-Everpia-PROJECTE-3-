@@ -1,6 +1,7 @@
-.
 
-🌐 T03 — Gestió flexible de discos (LVM i Storage Spaces)
+
+## 🌐 T03 — Gestió flexible de discos (LVM i Storage Spaces)
+
 📝 Descripció General
 
 El bufet Garriga i Associats, un dels més prestigiosos de la ciutat, necessita modernitzar els seus sistemes d’emmagatzematge per garantir que la seva informació legal sensible tingui:
