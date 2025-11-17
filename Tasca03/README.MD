@@ -91,10 +91,10 @@ Crear l'espai tolerant fins a dues fallades simultànies.
 
 3️⃣ Gestió i monitoratge
 
-Mostrar la informació del pool, discos i espais des de la consola de Windows.
+  Mostrar la informació del pool, discos i espais des de la consola de Windows.
 
-🧠 Metodologia de Treball
-👥 Organització del grup
+- 🧠 Metodologia de Treball
+- 👥 Organització del grup
 
 Dividir-se en equip Linux i equip Windows.
 
