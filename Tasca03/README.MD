@@ -109,4 +109,7 @@ Cada membre puja la tasca al seu repositori personal.
 
 ## Tasques:
 
+-  [LINUX](T03:LVM LINUX.md)
+
+-  [WINDOWS](T03:StoragePool.md)
 
