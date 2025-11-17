@@ -1,173 +1,99 @@
-# 🪟 Solució d’Emmagatzematge a Windows amb **Storage Spaces**
+
+*Crear discos addicionals virtuals per al Storage Pool**
+
+<img width="870" height="768" alt="Unofficial_Windows_logo_variant_-_2002–2012_(Multicolored) svg" src="https://github.com/user-attachments/assets/9b21570a-326f-434d-9612-45de8fd51a3f" />
+
+Obre la configuració de la VM.
+
+A l’apartat Emmagatzematge (Storage), afegeix tres discos nous de 10 GB cadascun.
+
+Desa i reinicia la VM.  
+Que quedi així:  
+
+<img width="752" height="429" alt="1" src="https://github.com/user-attachments/assets/c4b27b24-678e-4bc8-b8c3-04dd4683333e" />
 
 
-# 1. Creació del Storage Pool
+**Hem de seleccionar els tres discos creats**
 
-## ➤ 1.1 Afegir tres discos virtuals de 10 GB
-Afegim tres discos des de la configuració de la màquina virtual.
-
-[capt1](img/capt1.png)
+<img width="753" height="61" alt="2" src="https://github.com/user-attachments/assets/e7286f46-8a41-4719-b063-cf3eac67b4b3" />
 
 
-## ➤ 1.2 Crear el Storage Pool
-1. Obrim **Configuració** → *Espais d’emmagatzematge*.  
-2. Seleccionem els tres discos nous.  
-3. Creem el **Storage Pool inicial**.
+**RESILIENCIA DE MIRALL**
+
+Seleccionem dos discos a \< **Administrar espacios de almacenamiento de discos** \>
+
+<img width="606" height="342" alt="3" src="https://github.com/user-attachments/assets/9fafeadf-45df-437e-b52a-a7ad8f27439e" />
 
 
-[capt2](img/capt2.png)
+Un cop seleccionats aquests dos discos hem d'afegir el
+
+Tipos de resilencia**: Reflejo doble**
+
+**I en la mida màxima posem 20 GB**
+
+**Un cop assignats els dos discos eliminem un per comprovar que passaria si eliminem un.**
+
+<img width="520" height="354" alt="4" src="https://github.com/user-attachments/assets/dcf013a1-acbd-44be-99f4-64009cee2166" />
 
 
+**Creem un arxiu per veure que succeeix si esborrem un disc:**
 
-#  2. Creació d’un espai amb **Mirall Doble**
+<img width="636" height="471" alt="5" src="https://github.com/user-attachments/assets/1b9fa5ad-7608-476c-897a-034589c8fb27" />
 
-## ➤ 2.1 Configuració del mirall doble
-- Seleccionem **dos discos** del Storage Pool.
-- Creem un nou espai amb:
-  - 🔒 *Resiliència*: **Mirall**
-  - 📏 *Mida*: **20 GB**
+**Un cop eliminat ens donarà una advertència de què ha desaparegut un disc**
 
-
-[capt3](img/capt3.png)
+<img width="662" height="388" alt="6" src="https://github.com/user-attachments/assets/63cac9e3-6ab0-4d57-aab8-d7bcedddd8bd" />
 
 
+**un cop eliminat un disc hem d'afegir un disc que agafi la mateixa referència que tenia el disc anterior.**
 
-## ➤ 2.2 Verificació d’alta disponibilitat
-1. Creem un arxiu dins del disc virtual.  
-2. Apaguem la VM i eliminem físicament **un disc** del mirall.  
-3. Reiniciem.
+<img width="469" height="307" alt="7" src="https://github.com/user-attachments/assets/aad0192d-5eed-4603-952f-556f72a2d783" />
 
+
+**Com podem veure seguim tenint els dos discos que teníem anteriorment i a més segueixen tenint la informació (en aquest cas arxiu) que tenia abans:**
+
+<img width="457" height="418" alt="8" src="https://github.com/user-attachments/assets/01a5cda3-7602-42e5-a2cd-e7841b65a5c9" />
+
+
+**I ara podrem esborrar la unitat de disc perquè no surti més la seva exportació:**
+
+**Mirall triple**  
+Desfer l’espai anterior i crear un amb els tres discos que sigui mirall triple. Justificar quins avantatges té respecte al mirroring.  
    
-El sistema mostra una advertència però **l’arxiu continua disponible**.
-
- 
-[capt4](img/capt4.png)
+<img width="481" height="302" alt="9" src="https://github.com/user-attachments/assets/8c51430a-b6e7-4dc4-83d6-4e536474185d" />
 
 
+**Després d'afegir 5 discos hem d'obrir la màquina virtual.**
 
-#  3. Substitució del disc fallat
+**Seguidament hem d'obrir la gestió de discs i inicialitzar els discos:**
 
-1. Afegim un nou disc a la VM.  
-2. L’assignem al mateix Storage Pool.  
-3. Windows el detecta i reconstrueix automàticament el mirall.
-
- *Així garantim que no hi ha pèrdua de dades.*
+<img width="429" height="318" alt="10" src="https://github.com/user-attachments/assets/2fbac958-abc8-4d83-84c9-d00fae0f12ec" />
 
 
-[capt5](img/capt5.png)
+<img width="353" height="378" alt="11" src="https://github.com/user-attachments/assets/847eafd8-1eb8-4133-8952-6f46b43f165f" />
 
 
 
-#  4. Creació d’un **Mirall Triple**
+**Ara un cop afegit veurem la tolerancia a les fallades, hem eliminat 2 discos, amb la màquina virtual apagada, un cop hem eliminat aquests 2 discos hem d encedre la màquina i comprovar si la informació està encara.**
 
-## ➤ 4.1 Esborrar l’espai anterior
-Esborrem l’espai amb mirall doble per crear el nou espai.
-
-
-[capt6](img/capt6.png)
+<img width="448" height="480" alt="12" src="https://github.com/user-attachments/assets/101815cc-792c-4012-8be1-0cc3e611a3ac" />
 
 
+**Com podem veure, no hi ha cap error, i un dels documents anteriorment creats apareixen  correctament.**
 
-## ➤ 4.2 Crear un nou espai amb **3 discos**
-Configuració:
-- 🔐 **Tipus:** Mirall triple  
-- 🧩 **Discos:** 3  
+<img width="349" height="390" alt="13" src="https://github.com/user-attachments/assets/f4afaba6-913d-45e1-a551-f16bab784969" />
 
 
-[capt7](img/capt7.png)
+**Com podem veure, ens surt advertència als discos que hem desactivat, un cop ens surt que estan desactivant hem d’activar-los un altre cop amb la màquina apagada**
+
+<img width="555" height="92" alt="14" src="https://github.com/user-attachments/assets/1e1982d0-f41f-4da8-8d0e-edae83e7ead8" />
 
 
+**Un cop hem activat els discos novament, també ens surten tots els arxius correctament**
 
-##  Avantatges del Mirall Triple
+<img width="479" height="499" alt="16" src="https://github.com/user-attachments/assets/33440a43-2a5a-435e-872b-a26dea0c0b83" />
 
-| Configuració | Tolerància a fallades | Eficiència d'espai | Fiabilitat |
-|--------------|------------------------|----------------------|------------|
-| Mirall doble | 1 disc                 | 50%                 | Alta       |
-| **Mirall triple** | **2 discos** | 33% | **Molt alta** |
-
-🎯 Ideal per dades altament sensibles com les d’un bufet d’advocats.
-
-
-
-#  5. Prova de resiliència del Mirall Triple
-
-## ➤ 5.1 Eliminació de dos discos
-Amb la VM apagada, eliminem **dos discos** del mirall triple.
-
-
-[capt8](img/capt8.png)
-
-
-
-## ➤ 5.2 Resultat de la prova
-En reiniciar:
-- No hi ha errors greus.  
-- Les dades continuen disponibles.  
-- L’estat del Storage Space mostra alertes, però es manté funcional.
-
-
-[capt9](img/capt9.png)
-
-
-#  6. Reconnectar els discos eliminats
-
-Quan tornem a afegir els discos:
-- Windows els detecta
-- Comença la **reconstrucció automàtica**
-- Tot el contingut reapareix correctament
-
-
-[capt10](img/capt10.png)
-
-
-#  7. Creació d’un espai amb **Paritat**
-
-## ➤ 7.1 Configuració
-Esborrem l’espai anterior i configurem un nou espai amb:
-- 🔁 **Resiliència de paritat**
-- Requereix **mínim 3 discos**
-- Ideal per estalviar espai
-
- 
-[capt11](img/capt11.png)
-
-
-## 💡 Avantatges de la *Paritat*
-
-- 🧮 Molt més eficient en espai que el mirall
-- 🔧 Tolerància a fallades moderada
-- 📚 Perfecte per grans volums o backups
-
-| Resiliència | Protecció | Eficiència | Ús recomanat |
-|-------------|-----------|------------|--------------|
-| Mirall doble | Alta | Baixa | Sistemes essencials |
-| Mirall triple | Molt alta | Mitjana | Dades crítiques |
-| **Paritat** | Mitjana | **Alta** | Emmagatzematge massiu |
-
-
-#  8. Gestió del Storage Pool
-
-Des de la consola podem veure:
-- Estat dels discos (OK / Fallats)  
-- Capacitat disponible  
-- Avisos i alertes  
-- Estat del pool  
-- Necessitat de reconstrucció
-
-  
-[capt12](img/capt12.png)
-
-
-#  Conclusions
-
-La solució de **Windows Storage Spaces** ofereix:
-
-✔️ Alta disponibilitat  
-✔️ Protecció davant fallades de disc  
-✔️ Escalabilitat senzilla  
-✔️ Gestió centralitzada i intuïtiva  
-✔️ Adaptació flexible (mirall, triple mirall, paritat)
-
+<img width="726" height="492" alt="º7" src="https://github.com/user-attachments/assets/8aa9e581-4403-4513-9bba-d3b4849c923f" />
 
 
 
