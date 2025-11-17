@@ -107,4 +107,6 @@ El grup complet revisa i valida tota la documentació.
 
 Cada membre puja la tasca al seu repositori personal.
 
+## Tasques:
+
 
