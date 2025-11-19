@@ -111,5 +111,5 @@ Cada membre puja la tasca al seu repositori personal.
 
 -  [LINUX](linux.md)
 
--  [WINDOWS](/windows.md)
+-  [WINDOWS](windows.md)
 
