@@ -109,7 +109,7 @@ Cada membre puja la tasca al seu repositori personal.
 
 ## Tasques:
 
--  [LINUX](Tasca03/linux.md)
+-  [LINUX](linux.md)
 
--  [WINDOWS](Tasca03/windows.md)
+-  [WINDOWS](/windows.md)
 
